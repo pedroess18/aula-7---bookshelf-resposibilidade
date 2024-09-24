@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    text-align: center;
+    border-bottom: 1px solid #000;
+    padding: 2rem 0;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+
+.conteudo-primary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.conteudo-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo-text h2,
+span {
+    margin: 10px 0;
+}
+
+.conteudo-primary img {
+    width: 400px;
+    height: 400px;
+}
+
+
+.conteudo-option {
+    display: flex;
+}
+
+.btn-primary {
+    background-color: rgb(000, 100, 200);
+    color: #fff;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.btn-dark {
+    background-color: rgb(000, 000, 000);
+    color: #fff;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+
+.rodape {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px 0;
+}
+
+
+@media (max-width: 450px) {
+    .conteudo-option {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagem-content {
+        width: 100%;
+        height: auto;
+    }
+    
+    .btn-dark {
+        width: 80%;
+        text-align: center;
+    }
+
+    .btn-primary, .btn-dark{
+        width: 100%;
+        text-align: center;
+
+    }
+
+
+
+
+}
+
+/* .conteudo-option a {
+    background-color:rgb(000, 100, 200);
+    color: #fff;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 15px;
+} */
+
+
+
+/* .conteudo-option:nth-child(3){
+    background-color: red;
+} */
+
+
+/* https://dontpad.com/turmamark/06 */
